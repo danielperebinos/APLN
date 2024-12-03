@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "meowmagick"
+version = "0.1.0"
+description = "A Streamlit-based mini web application that showcases AI-powered cat image generation models, offering users a playful and interactive experience."
+authors = ["daniel.perebinos <daniel.perebinos@ebs-integrator.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.40.1"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+matplotlib = "^3.9.2"
+transformers = "^4.46.3"
+scipy = "^1.14.1"
+ftfy = "^6.3.1"
+accelerate = "^1.1.1"
+diffusers = "^0.31.0"
+jupyter = "^1.1.1"
+torchinfo = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
